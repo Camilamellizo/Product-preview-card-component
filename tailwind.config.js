@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'perfume': "url('./product-preview-card-component-main/design/image-product.jpg')",
+      }
+    },
   },
   plugins: [],
 }
